@@ -1,0 +1,111 @@
+export const LIME_COLOURS = [
+  "#EFFFD6",
+  "#D3F1A7",
+  "#B3DF72",
+  "#94C748",
+  "#82B536",
+  "#6A9A23",
+  "#5B7F24",
+  "#4C6B1F",
+  "#37471F",
+  "#28311B",
+] as const;
+
+export const RED_COLOURS = [
+  "#FFECEB",
+  "#FFD5D2",
+  "#FD9891",
+  "#F87168",
+  "#F15B50",
+  "#E2483D",
+  "#C9372C",
+  "#AE2E24",
+  "#5D1F1A",
+  "#42221F",
+] as const;
+
+export const ORANGE_COLOURS = [
+  "#FFF3EB",
+  "#FEDEC8",
+  "#FEC195",
+  "#FEA362",
+  "#F38A3F",
+  "#E56910",
+  "#C25100",
+  "#A54800",
+  "#702E00",
+  "#38291E",
+] as const;
+export const YELLOW_COLOURS = [
+  "#FFF7D6",
+  "#F8E6A0",
+  "#F5CD47",
+  "#E2B203",
+  "#CF9F02",
+  "#B38600",
+  "#946F00",
+  "#7F5F01",
+  "#533F04",
+  "#332E1B",
+] as const;
+
+export const GREEN_COLOURS = [
+  "#DCFFF1",
+  "#BAF3DB",
+  "#7EE2B8",
+  "#4BCE97",
+  "#2ABB7F",
+  "#22A06B",
+  "#1F845A",
+  "#216E4E",
+  "#164B35",
+  "#1C3329",
+] as const;
+export const TEAL_COLOURS = [
+  "#E7F9FF",
+  "#C6EDFB",
+  "#9DD9EE",
+  "#6CC3E0",
+  "#42B2D7",
+  "#2898BD",
+  "#227D9B",
+  "#206A83",
+  "#164555",
+  "#1E3137",
+] as const;
+export const BLUE_COLOURS = [
+  "#E9F2FF",
+  "#CCE0FF",
+  "#85B8FF",
+  "#579DFF",
+  "#388BFF",
+  "#1D7AFC",
+  "#0C66E4",
+  "#0055CC",
+  "#09326C",
+  "#1C2B41",
+] as const;
+export const PURPLE_COLOURS = [
+  "#F3F0FF",
+  "#DFD8FD",
+  "#B8ACF6",
+  "#9F8FEF",
+  "#8F7EE7",
+  "#8270DB",
+  "#6E5DC6",
+  "#5E4DB2",
+  "#352C63",
+  "#2B273F",
+] as const;
+export const MAGENTA_COLOURS = [
+  "#FFECF8",
+  "#FDD0EC",
+  "#F797D2",
+  "#E774BB",
+  "#DA62AC",
+  "#DA62AC",
+  "#CD519D",
+  "#AE4787",
+  "#943D73",
+  "#3D2232",
+] as const;
