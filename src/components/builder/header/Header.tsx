@@ -15,6 +15,7 @@ import {
   Group,
   rem,
   Switch,
+  useMantineColorScheme,
   useMantineTheme,
 } from "@mantine/core";
 import ReactLogo from "@/assets/react.svg";
@@ -23,6 +24,11 @@ import PublishButton from "./PublishButton";
 
 export default function Header() {
   const theme = useMantineTheme();
+  const { colorScheme, setColorScheme } = useMantineColorScheme();
+
+  const toggleColorScheme = () =>
+    setColorScheme(colorScheme === "dark" ? "light" : "dark");
+
   const sunIcon = (
     <IconSun
       style={{ width: rem(16), height: rem(16) }}
@@ -48,6 +54,8 @@ export default function Header() {
           <Group>
             <Group>
               <Switch
+                checked={colorScheme === "dark"}
+                onChange={toggleColorScheme}
                 size="md"
                 color="dark.4"
                 onLabel={sunIcon}
